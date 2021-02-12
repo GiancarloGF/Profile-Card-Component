@@ -1,0 +1,150 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card {
+  width: 30%;
+  height: 70%;
+  background-color: white;
+  margin: auto;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card .middle-card {
+  width: 100%;
+  height: 80%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom: 1px solid #ccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card .middle-card .text {
+  text-align: center;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.card .middle-card .text .text-content {
+  margin-top: 40px;
+}
+
+.card .middle-card .text h1 {
+  font-family: "Kumbh Sans", sans-serif;
+  color: #2d3248;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.card .middle-card .text h1 span {
+  color: #6a6f81;
+  font-weight: 400;
+}
+
+.card .middle-card .text h4 {
+  font-family: "Kumbh Sans", sans-serif;
+  color: #6a6f81;
+  font-weight: 400;
+}
+
+.card .middle-card .top-middlecard {
+  width: 100%;
+  height: 50%;
+  background-color: #19a2ae;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  position: relative;
+}
+
+.card .middle-card .top-middlecard .div-img-card {
+  padding: 3px;
+  background-color: white;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  left: 35%;
+  top: 64%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 100%;
+}
+
+.card .middle-card .top-middlecard .div-img-card .img-card {
+  border-radius: 100%;
+  width: 110px;
+  height: 110px;
+  -webkit-transition: all 0.09s ease-out;
+  transition: all 0.09s ease-out;
+}
+
+.card .middle-card .top-middlecard .div-img-card .img-card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  opacity: 0.8;
+}
+
+.card .followers {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.card .followers .foll {
+  text-align: center;
+}
+
+.card .followers .foll h1 {
+  font-family: "Kumbh Sans", sans-serif;
+  color: #2d3248;
+}
+
+.card .followers .foll h3 {
+  font-family: "Kumbh Sans", sans-serif;
+  color: #969696;
+  font-weight: normal;
+  font-size: 15px;
+}
+/*# sourceMappingURL=estilos.css.map */
